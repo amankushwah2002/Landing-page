@@ -1,0 +1,145 @@
+body {
+    background-color: #FEFBEA;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+nav {
+    position: relative;
+    overflow: hidden;
+    height: 90px;
+    width: 100%;
+    background-color: #af7c5b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    
+}
+
+.menu-list li {
+    list-style: none;
+    display: inline-block;    
+    margin-right: 38px;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.menu-list li:hover {
+    color: peachpuff;
+    cursor: pointer;
+}
+
+.title {
+        margin-left: 100px;
+        margin-top: 100px;
+        position: relative;
+        font-size: 1.5em;
+        letter-spacing: 1px;
+}
+
+.title strong {
+    margin-left: 50px;
+    font-size: 2em;
+    display: block;
+    line-height: 50px;
+}
+
+.msg {
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1.75rem;
+    font-style: italic;
+    
+}
+
+.nike-logo img {
+    /* position: relative; */
+    margin-left: -20px;
+    width: 200px;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+}
+/* .logo img {
+    margin-left: 20px;
+    width: 100px;
+    height: 75px;
+} */
+
+.right {
+    width: 50vw;
+    
+}
+.right .shoe2 {
+    position: relative;
+    top: 60px;
+}
+
+.right .shoe3 {
+    position: relative;
+    top: 20px
+}
+
+.right .shoe4{
+    position: relative;
+    top: 15px;
+    background-color: #714218;
+    
+}
+.right .shoe4 img {
+    mix-blend-mode: multiply;
+}
+.name {
+    font-size: xx-large;
+    line-height: 2px;
+    margin-top: 80px;
+}
+.text h3 span,h4 {
+    color: #757575;
+    font-size: medium;
+}
+
+.right img {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 2px;
+    border: 2.5px solid black;
+}
+.left {
+   margin-top: -80px;
+   text-align: justify;
+    /* top: -80px; */
+    /* position: sticky; */
+}
+.text {
+    width: 40vw;
+    margin-right: 50px;
+}
+
+.right h2 {
+    margin-left: 725px;
+    margin-bottom: 40px;
+    line-height: 2px;
+}
+.right button {
+    margin-left: 200px;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+
